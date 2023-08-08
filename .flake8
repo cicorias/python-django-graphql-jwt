@@ -1,0 +1,10 @@
+[flake8]
+; E226 (*)	missing whitespace around arithmetic operator
+; E302 (*)	expected 2 blank lines, found 1
+; E305 (*)	expected 2 blank lines after class or function definition, found 1
+; E41 (*)	indentation after 'return'
+; W503 line break before binary operator
+ignore = E226,E302,E41,E305,W503
+max-line-length = 160
+exclude = tests/*
+max-complexity = 10
